@@ -22,7 +22,7 @@ int main()
 	Rect roi(0, 0, 0, 0);
 	char message1[100];
 	char message2[100];
-	Mat img = imread("D:\\v2.jpg");
+	//Mat img = imread("D:\\v2.jpg");
 	Mat meow;
 	VideoCapture vc(0);
 	vc >> meow;
@@ -98,9 +98,9 @@ int main()
 		vc >> meow;
 	}
 	delete tracker;
-	namedWindow("v2.jpg");
-	imshow("v2.jpg", img);
-	waitKey();
+	//namedWindow("v2.jpg");
+	//imshow("v2.jpg", img);
+	//waitKey();
 	return 0;
 }
 
